@@ -1,12 +1,14 @@
 import './App.css'
-import ImageGalleryList from './Components/ImageGalleryList/ImageGalleryList'
+import { CustomeRoutes } from './Routes/customeRoutes'
+
+
 
 function App() {
 
   return (
     <>
-      
-     <ImageGalleryList />
+      <CustomeRoutes />
+     
     </>
   )
 }
